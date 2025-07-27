@@ -1,0 +1,38 @@
+start-at-login = true
+
+[mode.main.binding]
+    # Move focus
+    alt-left = 'focus left'
+    alt-right = 'focus right'
+
+    # Move window
+    alt-shift-left = 'move left'
+    alt-shift-right = 'move right'
+
+    # Resize
+    alt-backspace = 'resize smart -100'
+    alt-forwardDelete = 'resize smart +100'
+
+    # Jump to workspace
+    alt-1 = 'workspace 1'
+    alt-2 = 'workspace 2'
+    alt-3 = 'workspace 3'
+    alt-7 = 'workspace 7'
+    alt-8 = 'workspace 8'
+    alt-9 = 'workspace 9'
+
+    # Move to workspace
+    alt-shift-1 = 'move-node-to-workspace 1'
+    alt-shift-2 = 'move-node-to-workspace 2'
+    alt-shift-3 = 'move-node-to-workspace 3'
+    alt-shift-7 = 'move-node-to-workspace 7'
+    alt-shift-8 = 'move-node-to-workspace 8'
+    alt-shift-9 = 'move-node-to-workspace 9'
+
+[workspace-to-monitor-force-assignment]
+    1 = 'main'
+    2 = 'main'                       
+    3 = 'main'
+    7 = 'secondary'
+    8 = 'secondary'
+    9 = 'secondary'
