@@ -1,38 +1,61 @@
 start-at-login = true
+default-root-container-layout = 'tiles'
+default-root-container-orientation = 'horizontal'
+on-focused-monitor-changed = ['move-mouse monitor-lazy-center']
+
+[gaps]
+    inner.horizontal = 10
+    inner.vertical =   10
+    outer.left =       10
+    outer.bottom =     10
+    outer.top =        10
+    outer.right =      10
 
 [mode.main.binding]
     # Move focus
-    alt-left = 'focus left'
-    alt-right = 'focus right'
+    cmd-ctrl-left = 'focus left'
+    cmd-ctrl-right = 'focus right'
 
     # Move window
-    alt-shift-left = 'move left'
-    alt-shift-right = 'move right'
+    cmd-ctrl-shift-left = 'move left'
+    cmd-ctrl-shift-right = 'move right'
 
     # Resize
-    alt-backspace = 'resize smart -100'
-    alt-forwardDelete = 'resize smart +100'
+    cmd-ctrl-minus = 'resize smart -100'
+    cmd-ctrl-shift-equal = 'resize smart +100'
 
     # Jump to workspace
-    alt-1 = 'workspace 1'
-    alt-2 = 'workspace 2'
-    alt-3 = 'workspace 3'
-    alt-4 = 'workspace 4'
-    alt-7 = 'workspace 7'
-    alt-8 = 'workspace 8'
+    cmd-ctrl-1 = 'workspace 1'
+    cmd-ctrl-2 = 'workspace 2'
+    cmd-ctrl-3 = 'workspace 3'
+    cmd-ctrl-4 = 'workspace 4'
+    cmd-ctrl-5 = 'workspace 5'
+    cmd-ctrl-6 = 'workspace 6'
+    cmd-ctrl-7 = 'workspace 7'
+    cmd-ctrl-8 = 'workspace 8'
+    cmd-ctrl-9 = 'workspace 9'
+    cmd-ctrl-0 = 'workspace 0'
 
     # Move to workspace
-    alt-shift-1 = 'move-node-to-workspace 1'
-    alt-shift-2 = 'move-node-to-workspace 2'
-    alt-shift-3 = 'move-node-to-workspace 3'
-    alt-shift-4 = 'move-node-to-workspace 4'
-    alt-shift-7 = 'move-node-to-workspace 7'
-    alt-shift-8 = 'move-node-to-workspace 8'
+    cmd-ctrl-shift-1 = 'move-node-to-workspace 1'
+    cmd-ctrl-shift-2 = 'move-node-to-workspace 2'
+    cmd-ctrl-shift-3 = 'move-node-to-workspace 3'
+    cmd-ctrl-shift-4 = 'move-node-to-workspace 4'
+    cmd-ctrl-shift-5 = 'move-node-to-workspace 5'
+    cmd-ctrl-shift-6 = 'move-node-to-workspace 6'
+    cmd-ctrl-shift-7 = 'move-node-to-workspace 7'
+    cmd-ctrl-shift-8 = 'move-node-to-workspace 8'
+    cmd-ctrl-shift-9 = 'move-node-to-workspace 9'
+    cmd-ctrl-shift-0 = 'move-node-to-workspace 0'
 
 [workspace-to-monitor-force-assignment]
-    1 = 'main'
-    2 = 'main'                       
-    3 = 'main'
-    4 = 'main'
-    7 = 'secondary'
-    8 = 'secondary'
+    1 = 'secondary'
+    2 = 'secondary'                       
+    3 = 'secondary'
+    4 = 'secondary'
+    5 = 'secondary'
+    6 = 'primary'
+    7 = 'primary'
+    8 = 'primary'
+    9 = 'primary'
+    0 = 'primary'
